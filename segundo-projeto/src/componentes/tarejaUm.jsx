@@ -4,7 +4,7 @@
 function Titulo(props) {
     return (
         <fieldset>
-            <legend>{props.titulo}</legend>
+            <h1>{props.nome}</h1>
             <div>
                 <input type="checkbox" id="titulo" name="titulo"/>
                 <label for="titulo">check-box</label> 
