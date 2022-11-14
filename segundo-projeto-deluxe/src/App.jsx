@@ -1,5 +1,5 @@
 import './App.css'
-import Titulo from './componentes/tarejaUm'
+import Titulo from './componentes/tarefa'
 
 
 function App() {
