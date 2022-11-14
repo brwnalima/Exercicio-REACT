@@ -4,7 +4,8 @@ import Titulo from './componentes/tarejaUm'
 
 function App() {
   return (
-    <Titulo nome="Olá, mundo!" btn="Tarefa"/>
+    <Titulo nome="LANGUAGE+" small='Ganha um curso grátis! Sorteio abaixo:' 
+    btn="Boa sorte"/>
   )
 }
 

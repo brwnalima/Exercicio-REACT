@@ -15,6 +15,16 @@
   -webkit-text-size-adjust: 100%;
 }
 
+#root {
+  margin: auto;
+}
+
+fieldset {
+  margin: auto;
+  width: 100%;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -34,10 +44,15 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+}
+
+small {
+  margin-top: 2px;
 }
 
 button {
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -49,7 +64,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #000000;
 }
 button:focus,
 button:focus-visible {
